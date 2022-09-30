@@ -1,0 +1,11 @@
+{% extends "temp.html" %}
+
+{% block content %}
+    <h1>ROOMS</h1>
+
+    <ul>
+        {% for room in rooms %}
+            <p>{{ room }}</p>
+        {% endfor %}
+    </ul>
+{% endblock %}

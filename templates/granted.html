@@ -1,0 +1,32 @@
+{% extends "temp.html" %}
+
+{% block content %}
+    <h1>Add a New User</h1>
+    <form action="{{ url_for('create') }}" method="post">
+        <label for="email">Email</label>
+        <br>
+        <input type="text" name="email"
+               placeholder="User Email">
+        <br>
+
+        <label for="displayname">Display Name</label>
+        <br>
+        <input type="text" name="displayname"
+               placeholder="Display Name">
+        <br>
+
+        <label for="firstname">First Name</label>
+        <br>
+        <input type="text" name="firstname"
+               placeholder="First Name">
+        <br>
+
+        <label for="lastname">Last Name</label>
+        <br>
+        <input type="text" name="lastname"
+               placeholder="Last Name">
+        <br>
+        <button type="submit">Create User</button>
+    </form>
+{% endblock %}
+    
