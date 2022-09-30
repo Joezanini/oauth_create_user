@@ -1,4 +1,4 @@
-# OAuth Integration Demo
+# OAuth Python SDK Create User
 
 Make sure to have Python 3 installed.
 
@@ -14,5 +14,8 @@ You should see this in the terminal:
 Listening on http://0.0.0.0:10060...
 
 copy and paste above URL into browser and follow prompts
+  
+Be sure to log into Webex Account with Admin level credentials during the OAuth grant-flow. If you do not have Admin Credentials, go to developer.webex.com and request
+a developer sandbox for credentials. 
 
 **Note**: Your Redirect_URI in the Integration's settings on Developer Webex Teams site should be: http://0.0.0.0:10060/oauth or if you're using any other hosting platform it would be https://YOUR_SERVER/oauth
